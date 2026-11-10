@@ -1,0 +1,36 @@
+
+/* THG 2026 corporate design concept — non-destructive visual layer */
+:root{--ink:#102344;--muted:#65758b;--blue:#163c74;--navy:#071a36;--line:#e1e7ef}
+body{background:#fff;color:var(--ink);font-family:'Noto Sans KR',sans-serif}
+header{height:86px;padding:0 max(5%,calc((100vw - 1360px)/2));box-shadow:0 3px 24px #0b1d3510;border-bottom:1px solid #e8edf4;position:relative}
+header .brand-logo{max-height:57px;width:auto;object-fit:contain}
+nav{gap:clamp(14px,2.3vw,35px)}nav a{font-size:14px;font-weight:650;color:#18283f;letter-spacing:-.2px}
+nav a:hover{color:#1b5597}nav a.active:after{background:#183d73}
+.navcontact{background:#0b2247;color:#fff!important;padding:15px 22px;border-radius:3px;letter-spacing:0}
+.eyebrow,.label{color:#5076a8;font-size:11px;font-weight:700;letter-spacing:2.6px}
+h2{font-size:clamp(30px,3vw,42px);font-weight:750;line-height:1.4;letter-spacing:-1.7px}
+.editorial-hero{height:640px;min-height:580px;background:linear-gradient(95deg,#06152feF 0%,#092a55dd 37%,#0b2b5277 65%,#071c3330 100%),url('../brand-hero.png') center/cover;padding:70px max(7%,calc((100vw - 1260px)/2))}
+.editorial-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(120deg,transparent 41%,#a7c9f008 41%,#b2d2f009 46%,transparent 46%);pointer-events:none}
+.editorial-hero>div:first-child{position:relative;z-index:1;max-width:700px}
+.editorial-hero .eyebrow{color:#b7cce7;letter-spacing:3.6px;font-size:12px}
+.editorial-hero h1{font-size:clamp(42px,4.6vw,67px);font-weight:750;line-height:1.31;letter-spacing:-2.9px;text-shadow:0 3px 15px #06112445}
+.editorial-hero p{font-size:16px;line-height:1.95;color:#e1eaf6;font-weight:400}
+.editorial-hero .cta{border:1px solid #e0eaf6;color:#fff;background:#ffffff0b;padding:17px 28px;font-size:14px;font-weight:650;transition:background .2s,transform .2s}
+.editorial-hero .cta:hover{background:#fff;color:#0b2447;transform:translateY(-2px)}
+.hero-meta{left:max(7%,calc((100vw - 1260px)/2));right:max(7%,calc((100vw - 1260px)/2));bottom:27px;color:#d1dfee;font-size:9px;letter-spacing:1.7px}
+.brand-imagery-note{color:#d6e4f2!important;font-size:9px!important}
+.sector-strip{background:#f5f7fb;color:#10264b;border-bottom:1px solid #e0e7f0;padding:0 max(6%,calc((100vw - 1260px)/2))}
+.sector-strip div{padding:31px 28px;border-right:1px solid #d7e0eb;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.sector-strip div:first-child{border-left:1px solid #d7e0eb}.sector-strip b{font-size:12px;color:#102f5e;font-weight:800;letter-spacing:1.5px}.sector-strip span{font-size:13px;color:#66778d}
+section{padding:105px max(6%,calc((100vw - 1260px)/2))}.home-products{padding-top:108px;padding-bottom:110px}
+.sectionhead{margin-bottom:44px}.sectionhead>a,.back{font-size:13px;color:#173e77;font-weight:650;border-bottom:1px solid #9cb0ca;padding-bottom:10px}
+.product-grid{gap:25px}.product-card{border:1px solid #e0e6ee;background:#fff;box-shadow:0 14px 36px #0b23400b;padding-bottom:0;transition:box-shadow .25s,transform .25s}.product-card:hover{box-shadow:0 22px 46px #0b234025;transform:translateY(-5px)}
+.product-photo{height:260px;background:#f2f5f9;padding:24px}.product-body{padding:27px 26px 30px}.product-body small{font-size:10px;letter-spacing:1.5px;color:#5278a6;font-weight:700}.product-body h3{font-size:21px;font-weight:750}.product-body p{font-size:13px;line-height:1.85;min-height:49px}.more{font-size:12px;font-weight:750;color:#174a85}
+.home-about{background:#f3f6fa;gap:85px}.home-about .body{font-size:15px;line-height:2;color:#53677f}.editorial-image{background:#e6ecf3;padding:35px}.editorial-image img{height:360px}
+.home-business{gap:90px}.business-list article{padding:30px 0;border-color:#d8e2ed}.business-list h3{font-size:21px;font-weight:750}.business-list p{font-size:14px;color:#63758b}.business-list b{color:#2a5b96;font-weight:700}
+.contact{background:#0c2347;color:#fff}.contact .label{color:#91b2df}.contact h2{color:#fff}.contact p{color:#c3d1e2}.contact>a{color:#fff;border-color:#718eaf;font-size:18px}
+.page-banner{background:linear-gradient(95deg,#06152ff2,#0b2c56aa),url('../brand-hero.png') center/cover;height:270px}.page-banner h1{font-size:40px;font-weight:750}.page-banner p{font-size:13px}
+.card,.location{box-shadow:0 12px 26px #112c4a0c}.page-tabs .selected{background:#102e5b}.manufacture{background:#0a2347}
+footer{background:#071a34;color:#a6b8ce;padding-top:65px;padding-bottom:65px}footer .brand{color:#fff}
+@media(max-width:800px){header{height:75px}nav{top:75px}.editorial-hero{height:600px;min-height:0;background-position:62% center;padding:70px 7%}.editorial-hero h1{font-size:clamp(35px,7vw,48px);letter-spacing:-1.6px}.editorial-hero p{font-size:13px}.sector-strip{grid-template-columns:1fr;padding:0 6%}.sector-strip div,.sector-strip div:first-child{padding:19px 5px;border-left:0;border-right:0;border-bottom:1px solid #d9e2ed;flex-direction:row;justify-content:space-between;gap:10px}.sector-strip b{font-size:10px}.sector-strip span{font-size:11px}section{padding:65px 7%}.home-products{padding-top:75px;padding-bottom:75px}.product-grid{gap:22px}.product-photo{height:230px}.product-body{padding:22px}.home-about,.home-business{gap:30px}.editorial-image img{height:250px}.page-banner{height:235px}.page-banner h1{font-size:32px}}
+@media(prefers-reduced-motion:reduce){.product-card,.editorial-hero .cta{transition:none}}

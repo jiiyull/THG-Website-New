@@ -1,0 +1,17 @@
+THG GitHub Pages deployment package checks
+
+PASS: 10 HTML pages; original visible text preserved.
+PASS: Original image files copied byte-for-byte; text/CSS logo preserved.
+PASS: HTML, stylesheets and menu JavaScript separated; no inline handlers or inline CSS.
+PASS: 208 relative HTML references resolve within the package.
+PASS: CSS background and font URLs resolve to included files.
+PASS: No localhost, file://, workspace, Sites URLs or external font dependencies in runtime files.
+PASS: All individual files below GitHub web-upload 25 MiB limit.
+PASS: Existing 800px responsive breakpoint and mobile layout rules preserved.
+PASS: Menu JavaScript syntax and open/close/aria-expanded behavior checked.
+PASS: Desktop main and product detail screens visually inspected in browser.
+NOTE: Physical mobile-device rendering and live GitHub Pages deployment were not performed here.
+NOTE: Email links use visitor mail app; map links open Naver Maps.
+NOTE: Public GitHub Pages does not carry over the private preview login gate.
+
+No site content or image changes were made for this export.
