@@ -1,0 +1,57 @@
+
+/* THG TECHNOLOGY — DISTINCT CORPORATE REDESIGN V2 */
+:root{--navy:#071b36;--deep:#061329;--steel:#a7bdd6;--accent:#d7b47a;--paper:#f7f9fc;--ink:#14233d}
+body{background:#fff;color:var(--ink)}
+header{height:96px;box-shadow:none;border-bottom:1px solid #e7ecf3;background:#fff;padding:0 max(5%,calc((100vw - 1360px)/2))}
+header .brand-logo{width:88px;height:72px;max-height:72px;object-fit:contain}
+nav{gap:clamp(16px,2.5vw,38px)}nav a{font-size:13px;font-weight:700;letter-spacing:-.3px}
+nav .navcontact{background:var(--navy);border-radius:0;padding:17px 23px}
+nav a:hover{color:#2b5b95}
+.v2-hero{background:var(--deep);color:#fff;position:relative;overflow:hidden}
+.v2-hero-inner{min-height:660px;display:grid;grid-template-columns:51% 49%;max-width:1800px;margin:auto}
+.v2-hero-content{position:relative;z-index:2;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:90px 6% 100px max(10%,calc((100vw - 1250px)/2));background:linear-gradient(115deg,#071b36 50%,#102d53 100%)}
+.v2-overline{font-size:10px;letter-spacing:2.5px;color:#b9cde2;font-weight:750;display:flex;align-items:center;gap:14px;margin-bottom:42px;white-space:nowrap}
+.v2-line{width:35px;height:2px;background:var(--accent);display:inline-block}
+.v2-hero h1{font-size:clamp(39px,4.15vw,68px);line-height:1.38;font-weight:750;letter-spacing:-3.2px;margin:0 0 32px;white-space:nowrap}
+.v2-hero p{font-size:15px;line-height:2.05;color:#c3d2e5;margin:0}
+.v2-hero-actions{display:flex;align-items:center;gap:26px;margin-top:46px}
+.v2-primary{display:flex;gap:40px;align-items:center;justify-content:space-between;background:#fff;color:#102746;padding:19px 24px;min-width:222px;font-size:13px;font-weight:800;transition:background .2s}
+.v2-primary:hover{background:#e7eff9}.v2-primary span{font-size:19px}
+.v2-secondary{color:#e4ecf7;font-size:13px;border-bottom:1px solid #7b95b3;padding:14px 0;display:flex;gap:24px}
+.v2-hero-image{position:relative;background:linear-gradient(90deg,#06132930,#06132905),url('../brand-hero.png') center/cover;min-height:660px}
+.v2-hero-image:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#05142b80,transparent 38%)}
+.v2-image-caption{position:absolute;bottom:32px;right:36px;z-index:1;font-size:10px;letter-spacing:1.7px;color:#fff;text-shadow:0 1px 5px #061329}
+.v2-image-caption em{color:var(--accent);font-style:normal}
+.v2-hero-bottom{height:65px;border-top:1px solid #ffffff25;display:flex;align-items:center;justify-content:space-between;padding:0 max(6%,calc((100vw - 1250px)/2));font-size:9px;letter-spacing:1.6px;color:#a7bbd5;background:#081b35}
+.v2-capabilities{background:#fff;padding:0 max(6%,calc((100vw - 1250px)/2));border-bottom:1px solid #e3e9f1}
+.v2-capabilities-inner{display:grid;grid-template-columns:repeat(3,1fr)}
+.v2-capability{display:flex;flex-direction:column;gap:12px;padding:42px 32px 46px;border-left:1px solid #e2e8ef}
+.v2-capability:last-child{border-right:1px solid #e2e8ef}.v2-cap-num{font-size:9px;letter-spacing:1.6px;color:#7890ab}.v2-capability strong{font-size:19px;letter-spacing:.3px;color:#102a50}.v2-capability>span:last-child{font-size:13px;color:#73829a}
+section{padding:105px max(6%,calc((100vw - 1250px)/2))}
+.v2-label{font-size:11px;letter-spacing:2px;color:#456b9d;font-weight:800}
+h2{font-weight:750;letter-spacing:-1.8px}
+.v2-products{background:#f8fafc;padding-top:110px;padding-bottom:120px}
+.v2-products .sectionhead{margin-bottom:50px}
+.v2-products .product-grid{gap:22px}
+.v2-products .product-card{border:1px solid #e4eaf1;box-shadow:none;transition:transform .2s,box-shadow .2s;background:#fff}
+.v2-products .product-card:hover{transform:translateY(-5px);box-shadow:0 20px 36px #102b4b15}
+.v2-products .product-photo{height:270px;background:#edf2f7;padding:28px}
+.v2-products .product-body{padding:29px 29px 32px}
+.v2-products .product-body h3{font-size:22px}
+.v2-about{background:#fff;grid-template-columns:0.9fr 1.1fr;gap:90px}
+.v2-about .editorial-image{background:#e9eff6;padding:30px}
+.v2-about .editorial-image img{height:340px}
+.v2-business{background:#0b2241;color:#fff;grid-template-columns:0.85fr 1.15fr;gap:90px}
+.v2-business h2,.v2-business h3{color:#fff}.v2-business .label{color:#b3c8e4}
+.v2-business .back{color:#fff;border-color:#7289a8}
+.v2-business .business-list article{border-color:#47607f}
+.v2-business .business-list p{color:#b6c5d9}
+.v2-business .business-list b,.v2-business .business-list .arrow{color:#c5a873}
+.v2-contact{background:#edf2f8;color:#142b4a}.v2-contact h2{color:#142b4a}.v2-contact p{color:#64768d}.v2-contact a{color:#142b4a}
+.page-banner{height:300px;background:linear-gradient(90deg,#071b36f7 0%,#071b36c2 52%,#071b3666),url('../brand-hero.png') center/cover}
+.page-banner h1{font-size:42px;font-weight:750}.page-banner .eyebrow{color:#d5e3f4}
+.page-tabs{background:#f2f5f9}.page-tabs .selected{background:#102b50}
+.card,.location{box-shadow:none;border-top-color:#1d4a80}
+.manufacture{background:#0b2241}footer{background:#06152b}
+@media(max-width:950px){.v2-hero-inner{grid-template-columns:1fr}.v2-hero-content{min-height:470px;padding:65px 7%}.v2-hero-image{min-height:300px;background-position:center 55%}.v2-hero h1{font-size:clamp(37px,6vw,58px)}.v2-overline{margin-bottom:27px}.v2-hero-bottom span:nth-child(2){display:none}.v2-about{gap:45px}}
+@media(max-width:800px){header{height:75px}header .brand-logo{height:62px;width:78px}nav{top:75px}.v2-hero-content{min-height:470px;padding:64px 7%}.v2-hero h1{font-size:clamp(32px,7vw,46px);letter-spacing:-1.7px}.v2-hero p{font-size:13px}.v2-hero-actions{margin-top:33px;gap:17px}.v2-primary{min-width:0;padding:16px 18px;gap:15px}.v2-hero-image{min-height:255px}.v2-hero-bottom{padding:0 7%;height:52px}.v2-capabilities{padding:0 7%}.v2-capabilities-inner{grid-template-columns:1fr}.v2-capability{padding:20px 5px;gap:7px;border-left:0;border-bottom:1px solid #e3e9f1}.v2-capability:last-child{border-right:0}.v2-capability strong{font-size:16px}.v2-products{padding:70px 7%}.v2-about,.v2-business{grid-template-columns:1fr;gap:30px}.v2-about .editorial-image img{height:240px}.page-banner{height:235px}.page-banner h1{font-size:32px}}
