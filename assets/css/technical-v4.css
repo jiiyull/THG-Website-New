@@ -1,0 +1,31 @@
+
+/* THG Concept V4 — editorial aerospace engineering direction, no photography */
+:root{--navy:#071529;--ink:#0a1930;--electric:#9cceff}
+html{scroll-behavior:smooth}
+body{background:#f5f7fa}
+.hero{background:#06172d!important;min-height:750px;isolation:isolate;overflow:hidden}
+.hero-photo{display:none!important}
+.hero-technical{position:absolute;inset:0 0 0 38%;z-index:0;overflow:hidden;background:radial-gradient(ellipse at 62% 45%,#173d63 0%,#0b2947 26%,#071b33 56%,#06172d 84%)}
+.hero-technical:before{content:"";position:absolute;inset:0;opacity:.28;background-image:linear-gradient(#77b7f522 1px,transparent 1px),linear-gradient(90deg,#77b7f522 1px,transparent 1px);background-size:44px 44px;mask-image:radial-gradient(ellipse at center,#000 10%,transparent 80%)}
+.hero-shade{background:linear-gradient(90deg,#06172d 0%,#06172df2 36%,#06172d33 73%,transparent)!important}
+.technical-orbit{position:absolute;top:48%;left:59%;width:620px;height:620px;transform:translate(-50%,-50%) rotate(-28deg);border:1px solid #b1d8f743;border-radius:50%}
+.orbit-two{width:460px;height:460px;border-color:#b1d8f76b}.orbit-three{width:280px;height:280px;border-color:#b1d8f76b}
+.technical-axis{position:absolute;left:59%;top:0;bottom:0;border-left:1px solid #8bcaff25;transform:rotate(28deg)}
+.technical-cross{position:absolute;color:#9cc7e8;font-size:26px;font-weight:200}.cross-a{top:18%;left:29%}.cross-b{top:72%;left:83%}.cross-c{top:26%;left:78%}
+.technical-core{position:absolute;top:49%;left:59%;transform:translate(-50%,-50%);width:310px;text-align:center;color:#c5e5ff;letter-spacing:.2em}
+.core-label,.core-foot{font:500 10px/1.5 monospace;letter-spacing:.16em}.core-label{display:block;margin-bottom:24px}.core-foot{margin-top:24px}
+.core-outline{width:248px;height:248px;margin:auto;display:grid;place-items:center;border:1px solid #8bbce899;transform:rotate(45deg);box-shadow:0 0 0 18px #b8ddff0a,0 0 0 35px #b8ddff06}
+.core-chip{width:144px;height:144px;display:flex;flex-direction:column;justify-content:center;align-items:center;background:linear-gradient(135deg,#1c476a,#071c34);border:1px solid #a7d5ff;transform:rotate(-45deg);box-shadow:0 0 60px #6ba8e326}
+.core-chip span{font-size:48px;font-weight:800;letter-spacing:-.08em;color:#e4f2ff}.core-chip small{font-size:8px;letter-spacing:.13em;margin-top:10px}
+.technical-coord{position:absolute;bottom:95px;right:8%;font:11px/1.9 monospace;color:#91b6d5;letter-spacing:.1em;text-align:right}
+.hero-grid,.hero-bottom{position:relative;z-index:2}.hero-copy{max-width:850px}.hero h1{font-size:clamp(48px,5.4vw,90px)!important;line-height:1.18!important;letter-spacing:-.07em!important}.hero-description{font-size:clamp(16px,1.4vw,21px)!important;line-height:1.9!important}.eyebrow{letter-spacing:.24em!important}
+.intro{padding-top:145px!important;padding-bottom:145px!important}.intro-layout h2{letter-spacing:-.065em}.projects{background:#08182c!important}.project-feature{display:grid;grid-template-columns:1.15fr 1fr}.feature-image,.small-img{overflow:hidden;position:relative;background:#0e2a48!important}
+.tech-card-art{height:100%;min-height:330px;width:100%;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 48%,#235a80,#102b4a 48%,#07182b 95%);color:#b8d8ee}
+.tech-card-art:before{content:"";position:absolute;inset:0;opacity:.24;background-image:linear-gradient(#9ad1fa40 1px,transparent 1px),linear-gradient(90deg,#9ad1fa40 1px,transparent 1px);background-size:30px 30px}
+.art-top,.art-bottom{position:absolute;left:26px;right:26px;display:flex;justify-content:space-between;font:10px monospace;letter-spacing:.1em;z-index:2}.art-top{top:25px}.art-bottom{bottom:25px;opacity:.7}.art-device{position:absolute;top:50%;left:50%;width:210px;height:160px;transform:translate(-50%,-50%) rotate(-19deg);border:2px solid #b4ddf4;box-shadow:12px 14px 0 #174e70,12px 14px 0 2px #75add2,0 0 65px #4f9ed655;background:linear-gradient(145deg,#2a5e82,#102d4b)}
+.art-device:before,.art-device:after{content:"";position:absolute;left:25px;right:25px;height:2px;background:#91c4e3}.art-device:before{top:38px}.art-device:after{bottom:35px}
+.art-inner{position:absolute;left:42%;top:44%;width:32px;height:32px;border:2px solid #b4ddf4;border-radius:50%}.art-port{position:absolute;bottom:15px;width:11px;height:9px;border:1px solid #a6d2ee}.p1{left:24px}.p2{left:45px}.p3{left:66px}.p4{left:87px}
+.art-2 .art-device{border-radius:50%;width:180px;height:180px;transform:translate(-50%,-50%) rotate(-19deg)}.art-3 .art-device{width:225px;height:135px;transform:translate(-50%,-50%) rotate(12deg)}
+.feature-image img,.small-img img{display:none!important}.small-img .tech-card-art{min-height:280px}
+@media(max-width:850px){.hero{min-height:690px}.hero-technical{inset:0;opacity:.58}.hero-shade{background:linear-gradient(90deg,#06172de8,#06172da8)!important}.technical-core{left:75%;opacity:.45}.hero h1{font-size:clamp(44px,9vw,66px)!important}.project-feature{display:block}.feature-image{display:block;min-height:340px}.technical-coord{display:none}}
+@media(max-width:540px){.hero{min-height:690px}.hero-technical{opacity:.4}.hero h1{font-size:43px!important}.technical-core{left:85%;transform:translate(-50%,-50%) scale(.7)}.art-bottom span{display:none}.intro{padding-top:85px!important;padding-bottom:85px!important}}
