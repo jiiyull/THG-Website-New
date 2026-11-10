@@ -29,3 +29,8 @@ body{background:#f5f7fa}
 .feature-image img,.small-img img{display:none!important}.small-img .tech-card-art{min-height:280px}
 @media(max-width:850px){.hero{min-height:690px}.hero-technical{inset:0;opacity:.58}.hero-shade{background:linear-gradient(90deg,#06172de8,#06172da8)!important}.technical-core{left:75%;opacity:.45}.hero h1{font-size:clamp(44px,9vw,66px)!important}.project-feature{display:block}.feature-image{display:block;min-height:340px}.technical-coord{display:none}}
 @media(max-width:540px){.hero{min-height:690px}.hero-technical{opacity:.4}.hero h1{font-size:43px!important}.technical-core{left:85%;transform:translate(-50%,-50%) scale(.7)}.art-bottom span{display:none}.intro{padding-top:85px!important;padding-bottom:85px!important}}
+
+/* V5: actual supplied project photography, with premium restrained framing */
+.feature-image img,.small-img img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .7s cubic-bezier(.2,.7,.2,1);filter:contrast(1.04) saturate(.85)}
+.feature-image:hover img,.project-small:hover img{transform:scale(1.035)}
+.feature-image,.small-img{overflow:hidden;background:#e8edf3}
